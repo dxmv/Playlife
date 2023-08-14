@@ -4,14 +4,11 @@ import { MissionList } from "../../components/mission_components/MissionList";
 
 export const Progress = () => {
 	return (
-		<div className="flex">
-			<Navigation />
-			<main className="h-screen flex flex-col p-4 w-full">
-				<Info />
-				<Bar />
-				<Missions />
-			</main>
-		</div>
+		<>
+			<Info />
+			<Bar />
+			<Missions />
+		</>
 	);
 };
 

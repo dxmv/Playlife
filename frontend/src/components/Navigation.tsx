@@ -7,7 +7,7 @@ export const Navigation = () => {
 			<ul className="flex flex-col justify-between h-full">
 				<div className="flex flex-col">
 					<NavItem text="Progress" path="/progress" />
-					<NavItem text="Missions" path="/progress" />
+					<NavItem text="Missions" path="/missions" />
 					<NavItem text="About" path="/progress" />
 					<NavItem text="How To Use" path="/progress" />
 				</div>
